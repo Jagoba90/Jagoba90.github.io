@@ -47,3 +47,34 @@ thead{
 #footerraro{
     
 }
+
+
+@media screen 
+and (min-device-width : 390px) 
+and (max-device-width: 900px) {
+    table img{
+        width: 7rem;
+        
+    }
+
+    section{
+        justify-content: center;
+    }
+    table{
+        width: 100%;
+    }
+    .total{
+        text-align: center;
+        width: 80%;
+        line-height: 3rem;
+    }
+    
+}
+
+@media screen 
+and (min-device-width : 390px) 
+and (max-device-width: 410px) {
+    table{
+        padding: 0;
+    }
+}

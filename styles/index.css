@@ -60,7 +60,7 @@ and (min-device-width : 390px)
 and (max-device-width : 900px) {
     .imagen-principal{
         max-width: 100%;
-        height: 30vh;
+        height: 15vh;
     }
 
     #imagenes{
@@ -72,11 +72,11 @@ and (max-device-width : 900px) {
     #imagenes p{
         font-size: 1.5rem;
         position: relative;
+        margin-top: auto;
     }
 
     .imagenesmoviles{
         display: block;
-        margin: auto;
     }
 
     .imagen-inicio{
