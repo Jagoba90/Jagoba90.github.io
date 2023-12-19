@@ -116,10 +116,7 @@
 
 @media screen 
 and (min-device-width : 390px) 
-and (max-device-width: 420px) {
-    #filtro{
-    }
-    
+and (max-device-width: 900px) {
     #filtro ul{
         display: block;
     }
@@ -131,24 +128,25 @@ and (max-device-width: 420px) {
     .tarjeta{
         display: block;
     }
+
+    .boton-pulsable {
+        font-size: 1.4rem;
+    }
+
+    .imagen-tarjeta img{
+        width: 25vw;
+    }
+
+    .tarjeta{
+        margin: 2rem auto 1rem;
+    }
+
 }
 
 @media screen 
-and (min-device-width : 421px) 
+and (min-device-width : 431px) 
 and (max-device-width: 900px) {
-    #filtro ul{
-        display: block;
+    .imagen-tarjeta img{
+        width: 30vw;
     }
-
-    #contenido-princ{
-        display: block;
-}
-
-.tarjeta{
-    display: block;
-}
-    
-.imagen-tarjeta img{
-    width: 35vw;
-}
 }
