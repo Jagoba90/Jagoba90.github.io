@@ -1,0 +1,124 @@
+
+h1{
+    margin-top: 2rem;
+}
+
+p{    
+    margin: 3rem auto 1rem;
+}
+
+form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #ededed;
+    border-radius: 1rem;
+    margin: 0rem auto 8rem;
+}
+
+.entrada{
+    width: 70%;
+    border-radius: 10rem;
+    padding: 0.2rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.texto{
+    border: none;
+    height: 10rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+#enviar{
+    width: 40%;
+}
+
+span{
+    display: flex;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+span label{
+    width: 15%;
+}
+
+#enviar{
+    margin-left: auto;
+    width: 80%;
+    border-radius: 3rem;
+    border: none;
+    background-color: #586070;
+    color: white;
+}
+
+#enviar:hover{
+    background-color:  rgb(46, 78, 146);
+}
+
+
+#footerraro{
+    width: 62vw;
+}
+
+#seccionfooter{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.5rem;
+}
+
+#footerraro img{
+    width: 49%;
+    margin-bottom: 1rem;
+    
+}
+
+#ubi h2{
+    width: 45%;
+    margin-top: 2rem;
+}
+
+#ubi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+    font-size: 1.2em;
+}
+
+@media screen 
+and (min-device-width : 200px) 
+and (max-device-width: 900px) {
+
+    form{
+        width: 80%;
+    }
+
+    form label{
+        width: 30%;
+    }
+
+    #enviar{
+        width: 50%;
+    }
+
+    #seccionfooter{
+        display: block;
+    }
+    
+    #seccionfooter img{
+        width: 100%;
+    }
+
+    #ubi {
+        width: 100%;
+        margin: auto;
+    }
+    
+
+
+
+}
