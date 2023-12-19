@@ -1,3 +1,5 @@
+/*Estilos para la pagina del comparador*/
+
 .imagen-principal{
     width: 16%;
     height: auto;
@@ -10,14 +12,15 @@ h1{
     
 }
 
+/*Estilos para el contenedor de los dispositivos en el comparador*/
 #zona-comparador{
     max-width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 5em auto 5em;
-
 }
 
+/*Contenedor de cada dispositivo*/
 .tarjeta-movil{
     width: 18rem;
     margin: auto;
@@ -33,6 +36,11 @@ h1{
     font-size: 2em;    
 }
 
+.tarjeta-movil p{
+    font-size: 1.2rem;
+}
+
+/*Linea separadora entre parrafos*/
 .linea{
     border-bottom: 2px solid rgba(128, 128, 128, 0.5);
     margin-bottom: 1.5rem;
@@ -40,12 +48,9 @@ h1{
     width: 85%;
 }
 
-.tarjeta-movil p{
-    font-size: 1.2rem;
-}
-
+/*Estilos para movil*/
 @media screen 
-and (min-device-width : 390px) 
+and (min-device-width : 360px) 
 and (max-device-width: 431px) {
     #zona-comparador{
         display: flex;
@@ -65,7 +70,7 @@ and (max-device-width: 431px) {
     }
 
 }
-
+/*Estilos unicos para tablet*/
 @media screen 
 and (min-device-width : 432px) 
 and (max-device-width: 900px) {
