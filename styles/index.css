@@ -62,14 +62,14 @@ and (max-device-width : 900px) {
         margin: 4rem auto;
     }
 
-    .imagenesmoviles{
-        display: block;
-    }
-    
-    .imagenesmoviles p{
+    #imagenes p{
         font-size: 1.5rem;
         position: relative;
         margin-top: auto;
+    }
+    
+    .imagenesmoviles{
+        display: block;
     }
 
     .imagen-dispositivo{

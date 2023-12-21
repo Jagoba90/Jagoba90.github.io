@@ -1,9 +1,7 @@
 /*Estilos para la cesta de compra*/
 
 h1{
-    font-size: 52px;
     margin: 2rem auto 3rem;
-    color: #343c40;
 }
 
 /* Estilos para el contenedor de la tabla y el h2*/
@@ -36,7 +34,7 @@ td, th{
 
 .cantidad, .precio{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /*Estilo para el h2 que muestra el mensaje de precio total*/
@@ -44,7 +42,7 @@ td, th{
     width: 50%;
     margin: auto;
     text-align: right;
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 3rem;
 }
 
