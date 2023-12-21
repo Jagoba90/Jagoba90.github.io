@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/contacta.css">
 </head>
 <body>
+    <!--Cabecera comun para todas las paginas con los diferentes menús-->
     <header id="cabecera">
         <a href="index.html"><img src="images/logotipo.png" alt="Logotipo Birt" id="imagen-birt"></a>
         <nav>
@@ -27,13 +28,14 @@
             </a>
         </aside>
     </header>
-
-
+    <!--Imagen principal de la pagina, frase de la pagina y parrafo de informacion-->
     <section>
-        <img src="images/tienda.jpg" alt="" srcset="" class="imagen-principal">
+        <img src="images/tienda.jpg" alt="imagen principal" srcset="" class="imagen-principal">
         <h1 class="color-gris descrip">Tu tienda de moviles de confianza desde 2020</h1>
     </section>
     <p>www.BirtMobile.com - info@birtmobile.com</p>
+
+    <!--Formulario de contacto-->
     <form action="get">
         <input type="text" name="nombre" id="nombre" class="entrada" placeholder="Nombre">
         <input type="text" name="apellidos" id="apellidos" class="entrada" placeholder="Apellidos">
@@ -46,14 +48,15 @@
         </span>
     </form>
 
+    <!--Frase previa al footer-->
     <section>
         <h2 class="color-gris descrip">Cómo llegar</h2>
     </section>
-
-    <footer id="footerraro"> 
-    <section id="seccionfooter">
-        <img src="images/mapa.jpg" alt="" srcset="" id="imagenfooter"  class="img-int">
-        <div id="ubi">
+    <!--footer-->
+    <footer id="footer-diferente"> 
+    <section id="contenedor-ubicacion">
+        <img src="images/mapa.jpg" alt="mapa donde estamos" srcset="" id="imagenfooter">
+        <div id="contenedor-informacion">
             <h2>Transporte</h2>
             <p><b>bus:</b>Lineas 01-20-26-56-62-77-A5-G1-G6</p>
             <p><b>tren:</b>Astigarraga - Donostia: C1</p>
@@ -64,20 +67,19 @@
     </section>
         <div id="fin-pagina">
             <ul id="lista-iconos">
-                <li><img src="images/tik-tok.png" alt="" srcset="" class="icono-red-social"></li>
-                <li><img src="images/twitter.png" alt="" srcset="" class="icono-red-social"></li>
-                <li><img src="images/facebook.png" alt="" srcset="" class="icono-red-social"></li>
-                <li><img src="images/youtube.png" alt="" srcset="" class="icono-red-social"></li>
-                <li><img src="images/instagram.png" alt="" srcset="" class="icono-red-social"></li>
+                <li><img src="images/tik-tok.png" alt="red tiktok" srcset="" class="icono-red-social"></li>
+                <li><img src="images/twitter.png" alt="red twitter" srcset="" class="icono-red-social"></li>
+                <li><img src="images/facebook.png" alt="red facebook" srcset="" class="icono-red-social"></li>
+                <li><img src="images/youtube.png" alt="red youtube" srcset="" class="icono-red-social"></li>
+                <li><img src="images/instagram.png" alt="red instagram" srcset="" class="icono-red-social"></li>
             </ul>
 
-            <ul id="contacto">
+            <ul id="condiciones">
                 <a href="#" class="enlace-web"><li>privacidad</li></a>
                 <a href="#" class="enlace-web"><li>condiciones de venta</li></a>
                 <a href="#" class="enlace-web"><li>terminos del servicio</li></a>
             </ul>
         </div>
     </footer>
-
 </body>
 </html>

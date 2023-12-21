@@ -52,12 +52,7 @@ td, th{
 @media screen 
 and (min-device-width : 360px) 
 and (max-device-width: 900px) {
-    table img{
-        width: 7rem;
-        
-    }
-
-    section{
+    .contenido{
         justify-content: center;
     }
 
@@ -65,6 +60,11 @@ and (max-device-width: 900px) {
         width: 100%;
     }
 
+    table img{
+        width: 7rem;
+    }
+
+    /*Estilo para el h2 donde aparece el total*/
     .total{
         text-align: center;
         width: 80%;

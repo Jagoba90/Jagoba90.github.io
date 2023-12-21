@@ -52,6 +52,14 @@ h1{
 @media screen 
 and (min-device-width : 360px) 
 and (max-device-width: 431px) {
+    .imagen-principal{
+        width: 40vw;
+    }
+
+    h1{
+        width: 100%;
+    }
+    
     #zona-comparador{
         display: flex;
         flex-direction: column;
@@ -60,15 +68,6 @@ and (max-device-width: 431px) {
     .tarjeta-movil{
         margin: 2rem auto 2rem;
     }
-
-    .imagen-principal{
-        width: 40vw;
-    }
-
-    h1{
-        width: 100%;
-    }
-
 }
 /*Estilos unicos para tablet*/
 @media screen 
