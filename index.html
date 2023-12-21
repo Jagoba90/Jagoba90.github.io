@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+    <!--Cabecera comun para todas las paginas con los diferentes menús-->
     <header id="cabecera">
         <a href="index.html"><img src="images/logotipo.png" alt="Logotipo Birt" id="imagen-birt"></a>
-        
         <nav>
             <ul id="lista-menus">
                 <li><a href="android.html" class="enlace-web">Android</a></li>
@@ -28,38 +28,40 @@
             </a>
         </aside>
     </header>
-    <section>
-        <article class="informacion-pagina">
-            <img src="images/imagen-principal.jpg" alt="" srcset="" class="imagen-principal">
+    <!--Imagen principal de la pagina y frase de la pagina-->
+    <section id="general-index">
+        <article>
+            <img src="images/imagen-principal.jpg" alt="Imagen principal Index" srcset="" class="imagen-principal">
             <h1 class="color-gris">Tu tienda de moviles de confianza desde 2020</h1>
         </article>
+        <!--diferentes menús de dispositivos-->
         <article id="imagenes">
-            <span class="imagenesmoviles imagenandroid">
-                <a href="android.html"><img src="images/android.jpg" alt="foto android" srcset="" class="imagen-inicio img-int"></a>
+            <span class="imagenesmoviles lado-android">
+                <a href="android.html"><img src="images/android.jpg" alt="foto android" srcset="" class="imagen-dispositivo"></a>
                 <p id="android">Android</p>
             </span>
-            <span class="imagenesmoviles imageniphone">
-                <a href="iphone.html"><img src="images/iphone.jpg" alt="foto iphone" srcset="" class="imagen-inicio img-int"></a>
+            <span class="imagenesmoviles lado-iphone">
+                <a href="iphone.html"><img src="images/iphone.jpg" alt="foto iphone" srcset="" class="imagen-dispositivo"></a>
                 <p id="iphone">iPhone</p>
             </span>
         </article>
     </section>
-
+    <!--footer-->
     <footer>
         <div class="imagen-texto">
-            <a href="contacta.html" id="foto-footer-contacta"><img src="images/tienda.jpg" alt="" srcset="" id="imagenfooter" class="img-int"></a>
+            <a href="contacta.html" id="foto-footer-contacta"><img src="images/tienda.jpg" alt="imagen principal footer" srcset="" id="imagenfooter"></a>
             <h2>Nuestra tienda física</h2>
         </div>
         <div id="fin-pagina">
             <ul id="lista-iconos">
-                <li><a href="#"><img src="images/tik-tok.png" alt="" srcset="" class="icono-red-social"></a></li>
-                <li><a href=""><img src="images/twitter.png" alt="" srcset="" class="icono-red-social"></a></li>
-                <li><a href=""><img src="images/facebook.png" alt="" srcset="" class="icono-red-social"></a></li>
-                <li><a href=""><img src="images/youtube.png" alt="" srcset="" class="icono-red-social"></a></li>
-                <li><a href=""><img src="images/instagram.png" alt="" srcset="" class="icono-red-social"></a></li>
+                <li><a href="#"><img src="images/tik-tok.png" alt="red tiktok" srcset="" class="icono-red-social"></a></li>
+                <li><a href=""><img src="images/twitter.png" alt="red twitter" srcset="" class="icono-red-social"></a></li>
+                <li><a href=""><img src="images/facebook.png" alt="red facebook" srcset="" class="icono-red-social"></a></li>
+                <li><a href=""><img src="images/youtube.png" alt="red youtube" srcset="" class="icono-red-social"></a></li>
+                <li><a href=""><img src="images/instagram.png" alt="red instagram" srcset="" class="icono-red-social"></a></li>
             </ul>
 
-            <ul id="contacto">
+            <ul id="condiciones">
                 <a href="#" class="enlace-web"><li>privacidad</li></a>
                 <a href="#" class="enlace-web"><li>condiciones de venta</li></a>
                 <a href="#" class="enlace-web"><li>terminos del servicio</li></a>

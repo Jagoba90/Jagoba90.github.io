@@ -1,13 +1,7 @@
-
-section{
+/*Estilos para la pagina de index*/
+#general-index{
     justify-content: center;
     align-items: center;
-}
-
-.imagen-principal{
-    margin-top: 2rem;
-    width: 62vw;
-    height: 40vh;
 }
 
 h1{
@@ -16,18 +10,13 @@ h1{
     font-size: 3rem;
 }
 
+/*Estilos contenedor general para las imagenes y nombres*/
 #imagenes{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
     margin: auto;
-}
-
-.imagenesmoviles{
-    position: relative;
-    display: flex;
-    align-items: flex-end;
 }
 
 #imagenes img{
@@ -42,19 +31,23 @@ h1{
     margin: 2.4rem;
 }
 
-.imagenandroid{
-
+/*Estilos contenedor propio de la imagen del movil y el texto*/
+.imagenesmoviles{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
 }
 
-.imageniphone{
-    display: flex;
+/*Contenedor apartado iPhone*/
+.lado-iphone{
     justify-content: right;
 }
 
-.imagen-inicio{
+.imagen-dispositivo{
     width: 25vw;
 }
 
+/*Estilos para movil y tablet*/
 @media screen 
 and (min-device-width : 360px) 
 and (max-device-width : 900px) {
@@ -69,18 +62,17 @@ and (max-device-width : 900px) {
         margin: 4rem auto;
     }
 
-    #imagenes p{
+    .imagenesmoviles{
+        display: block;
+    }
+    
+    .imagenesmoviles p{
         font-size: 1.5rem;
         position: relative;
         margin-top: auto;
     }
 
-    .imagenesmoviles{
-        display: block;
-    }
-
-    .imagen-inicio{
+    .imagen-dispositivo{
         width: 40vw;
     }
-
 }
